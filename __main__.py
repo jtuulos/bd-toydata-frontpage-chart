@@ -1,5 +1,5 @@
 import bitdeli
-from bitdeli.widgets import Line, set_theme
+from bitdeli.widgets import Line, Text, set_theme
 from datetime import datetime, timedelta
 import random
 
@@ -27,3 +27,7 @@ Line(size=(10, 7),
      data=[{'label': 'Android users', 'data': list(data_exp())},
            {'label': 'IPhone users', 'data': list(data_exp())},
            {'label': 'Web users', 'data': list(data_lin())}])
+
+Text(head="98%", size=(2, 2))
+Text(head="87%", size=(2, 2), color=2)
+Text(head="22%", size=(2, 2), color=3)
