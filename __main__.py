@@ -1,5 +1,5 @@
 import bitdeli
-from bitdeli.widgets import Line, Text, set_theme
+from bitdeli.widgets import Title, Description, Line, Text, set_theme
 from datetime import datetime, timedelta
 import random
 
@@ -31,3 +31,6 @@ Line(size=(10, 7),
 Text(head="98%", size=(2, 2))
 Text(head="87%", size=(2, 2), color=2)
 Text(head="22%", size=(2, 2), color=3)
+
+Title("Week-to-week growth for Android is 98%")
+Description("**86%** of users have been active in the past week. Latest version has been downloaded **2,347** times since October 24th.")
